@@ -10,16 +10,11 @@ if (!nzchar(Sys.getenv("OPENAI_API_KEY"))) {
   )
 }
 
-store <- quartohelp:::quarto_ragnar_store()
-
-ui <-  quartohelp:::quartohelp_chat_ui(NULL)
-server <- quartohelp:::quartohelp_chat_server(
-  store,
-  client = function() {
-    ellmer::chat_openai(model = "gpt-4.1") |>
-      quartohelp:::quartohelp_setup_client(store)
-  },
-  close_action = "clear"
+ui <- quartohelp:::quartohelp_app_ui()
+server <- quartohelp:::quartohelp_app_server(
+  chat_factory = function() quartohelp::configure_chat(
+    chat = ellmer::chat_openai(model = "gpt-4o")
+  )
 )
 
 shiny::shinyApp(ui, server)
