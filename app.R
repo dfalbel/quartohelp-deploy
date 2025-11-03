@@ -1,4 +1,5 @@
 Sys.setenv(RETICULATE_USE_MANAGED_VENV="true")
+Sys.setenv(QUARTOHELP_HOSTED="true")
 
 library(dbplyr)
 

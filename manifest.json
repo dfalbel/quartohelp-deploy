@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "locale": "UTF-8",
+  "locale": "en_US",
   "platform": "4.5.0",
   "metadata": {
     "appmode": "shiny",
@@ -650,22 +650,22 @@
         "Encoding": "UTF-8",
         "Roxygen": "list(markdown = TRUE)",
         "RoxygenNote": "7.3.3",
-        "Collate": "'utils-S7.R' 'types.R' 'ellmer-package.R' 'tools-def.R'\n'content.R' 'provider.R' 'as-json.R' 'batch-chat.R'\n'chat-structured.R' 'turns.R' 'chat-tools.R' 'chat-utils.R'\n'utils-coro.R' 'chat.R' 'content-image.R' 'content-pdf.R'\n'content-replay.R' 'httr2.R' 'import-standalone-obj-type.R'\n'import-standalone-purrr.R' 'import-standalone-types-check.R'\n'interpolate.R' 'live.R' 'parallel-chat.R' 'params.R'\n'provider-anthropic.R' 'provider-any.R' 'provider-aws.R'\n'provider-openai.R' 'provider-azure.R' 'provider-google.R'\n'provider-cloudflare.R' 'provider-databricks.R'\n'provider-deepseek.R' 'provider-github.R'\n'provider-google-upload.R' 'provider-groq.R'\n'provider-huggingface.R' 'provider-mistral.R'\n'provider-ollama.R' 'provider-openai-responses.R'\n'provider-openrouter.R' 'provider-perplexity.R'\n'provider-portkey.R' 'provider-snowflake.R' 'provider-vllm.R'\n'schema.R' 'tokens.R' 'tools-built-in.R' 'tools-def-auto.R'\n'utils-callbacks.R' 'utils-cat.R' 'utils-merge.R'\n'utils-prettytime.R' 'utils.R' 'zzz.R'",
+        "Collate": "'utils-S7.R' 'types.R' 'ellmer-package.R' 'tools-def.R'\n'content.R' 'provider.R' 'as-json.R' 'batch-chat.R'\n'chat-structured.R' 'turns.R' 'chat-tools.R' 'chat-utils.R'\n'utils-coro.R' 'chat.R' 'content-image.R' 'content-pdf.R'\n'content-replay.R' 'httr2.R' 'import-standalone-obj-type.R'\n'import-standalone-purrr.R' 'import-standalone-types-check.R'\n'interpolate.R' 'live.R' 'parallel-chat.R' 'params.R'\n'provider-anthropic.R' 'provider-any.R' 'provider-aws.R'\n'provider-openai.R' 'provider-azure.R' 'provider-google.R'\n'provider-cloudflare.R' 'provider-databricks.R'\n'provider-deepseek.R' 'provider-github.R'\n'provider-google-upload.R' 'provider-groq.R'\n'provider-huggingface.R' 'provider-mistral.R'\n'provider-ollama.R' 'provider-openai-responses.R'\n'provider-openrouter.R' 'provider-perplexity.R'\n'provider-portkey.R' 'provider-snowflake.R' 'provider-vllm.R'\n'schema.R' 'tokens.R' 'tools-built-in.R' 'tools-def-auto.R'\n'utils-auth.R' 'utils-callbacks.R' 'utils-cat.R'\n'utils-merge.R' 'utils-prettytime.R' 'utils.R' 'zzz.R'",
         "RemoteType": "github",
         "RemoteHost": "api.github.com",
         "RemoteRepo": "ellmer",
         "RemoteUsername": "tidyverse",
         "RemoteRef": "HEAD",
-        "RemoteSha": "d6bfac47a1946438fb8ee2e423ecfc6908fff226",
+        "RemoteSha": "533b35b7a0b476c3020958cd44d6d3499f3416a6",
         "GithubRepo": "ellmer",
         "GithubUsername": "tidyverse",
         "GithubRef": "HEAD",
-        "GithubSHA1": "d6bfac47a1946438fb8ee2e423ecfc6908fff226",
+        "GithubSHA1": "533b35b7a0b476c3020958cd44d6d3499f3416a6",
         "NeedsCompilation": "no",
-        "Packaged": "2025-10-31 10:03:00 UTC; dfalbel",
+        "Packaged": "2025-11-03 19:38:16 UTC; dfalbel",
         "Author": "Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>),\n  Joe Cheng [aut],\n  Aaron Jacobs [aut],\n  Garrick Aden-Buie [aut] (ORCID:\n    <https://orcid.org/0000-0002-7111-0077>),\n  Barret Schloerke [aut] (ORCID: <https://orcid.org/0000-0001-9986-114X>),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
-        "Built": "R 4.5.0; ; 2025-10-31 10:03:01 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-03 19:38:17 UTC; unix"
       }
     },
     "fastmap": {
@@ -1408,7 +1408,7 @@
         "Type": "Package",
         "Package": "promises",
         "Title": "Abstractions for Promise-Based Asynchronous Programming",
-        "Version": "1.4.0",
+        "Version": "1.5.0",
         "Authors@R": "c(\n    person(\"Joe\", \"Cheng\", , \"joe@posit.co\", role = \"aut\"),\n    person(\"Barret\", \"Schloerke\", , \"barret@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0001-9986-114X\")),\n    person(\"Winston\", \"Chang\", , \"winston@posit.co\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-1576-2126\")),\n    person(\"Charlie\", \"Gao\", , \"charlie.gao@posit.co\", role = \"aut\",\n           comment = c(ORCID = \"0000-0002-0750-061X\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"03wc8by49\"))\n  )",
         "Description": "Provides fundamental abstractions for doing asynchronous\n    programming in R using promises. Asynchronous programming is useful\n    for allowing a single R process to orchestrate multiple tasks in the\n    background while also attending to something else. Semantics are\n    similar to 'JavaScript' promises, but with a syntax that is idiomatic\n    R.",
         "License": "MIT + file LICENSE",
@@ -1425,12 +1425,12 @@
         "Language": "en-US",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "no",
-        "Packaged": "2025-10-21 17:55:04 UTC; barret",
+        "Packaged": "2025-10-31 20:26:43 UTC; barret",
         "Author": "Joe Cheng [aut],\n  Barret Schloerke [aut, cre] (ORCID:\n    <https://orcid.org/0000-0001-9986-114X>),\n  Winston Chang [aut] (ORCID: <https://orcid.org/0000-0002-1576-2126>),\n  Charlie Gao [aut] (ORCID: <https://orcid.org/0000-0002-0750-061X>),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Barret Schloerke <barret@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2025-10-22 07:40:09 UTC",
-        "Built": "R 4.5.0; ; 2025-10-22 10:44:44 UTC; unix"
+        "Date/Publication": "2025-11-01 06:30:02 UTC",
+        "Built": "R 4.5.0; ; 2025-11-01 08:07:07 UTC; unix"
       }
     },
     "purrr": {
@@ -1488,17 +1488,17 @@
         "RemoteHost": "api.github.com",
         "RemoteRepo": "quartohelp",
         "RemoteUsername": "t-kalinowski",
-        "RemoteRef": "HEAD",
-        "RemoteSha": "bb69b4a7a044cd353134063b41cf029280144497",
+        "RemoteRef": "polish-app",
+        "RemoteSha": "8a5b1e7ded4985c17bd779b87e3f596f9fe91173",
         "GithubRepo": "quartohelp",
         "GithubUsername": "t-kalinowski",
-        "GithubRef": "HEAD",
-        "GithubSHA1": "bb69b4a7a044cd353134063b41cf029280144497",
+        "GithubRef": "polish-app",
+        "GithubSHA1": "8a5b1e7ded4985c17bd779b87e3f596f9fe91173",
         "NeedsCompilation": "no",
-        "Packaged": "2025-10-31 10:03:29 UTC; dfalbel",
+        "Packaged": "2025-11-03 19:38:21 UTC; dfalbel",
         "Author": "Tomasz Kalinowski [aut, cre]",
         "Maintainer": "Tomasz Kalinowski <tomasz@posit.co>",
-        "Built": "R 4.5.0; ; 2025-10-31 10:03:29 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-03 19:38:21 UTC; unix"
       }
     },
     "ragnar": {
@@ -2176,7 +2176,7 @@
   },
   "files": {
     "app.R": {
-      "checksum": "b7cb5cb0f7dc71801c9c172161886eaf"
+      "checksum": "b1dc69dcc1f2a72ab24f278695019637"
     }
   },
   "users": null
