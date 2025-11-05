@@ -656,16 +656,16 @@
         "RemoteRepo": "ellmer",
         "RemoteUsername": "tidyverse",
         "RemoteRef": "HEAD",
-        "RemoteSha": "533b35b7a0b476c3020958cd44d6d3499f3416a6",
+        "RemoteSha": "5ad7f6c42f47d923536fd22bbf81257547e41e9a",
         "GithubRepo": "ellmer",
         "GithubUsername": "tidyverse",
         "GithubRef": "HEAD",
-        "GithubSHA1": "533b35b7a0b476c3020958cd44d6d3499f3416a6",
+        "GithubSHA1": "5ad7f6c42f47d923536fd22bbf81257547e41e9a",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-03 19:38:16 UTC; dfalbel",
+        "Packaged": "2025-11-05 19:43:12 UTC; dfalbel",
         "Author": "Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>),\n  Joe Cheng [aut],\n  Aaron Jacobs [aut],\n  Garrick Aden-Buie [aut] (ORCID:\n    <https://orcid.org/0000-0002-7111-0077>),\n  Barret Schloerke [aut] (ORCID: <https://orcid.org/0000-0001-9986-114X>),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
-        "Built": "R 4.5.0; ; 2025-11-03 19:38:17 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-05 19:43:13 UTC; unix"
       }
     },
     "fastmap": {
@@ -1216,13 +1216,7 @@
         "Maintainer": "Charlie Gao <charlie.gao@posit.co>",
         "Repository": "CRAN",
         "Date/Publication": "2025-10-06 09:20:02 UTC",
-        "Built": "R 4.5.0; ; 2025-10-07 14:50:14 UTC; unix",
-        "RemoteType": "standard",
-        "RemotePkgRef": "mirai",
-        "RemoteRef": "mirai",
-        "RemoteRepos": "https://cloud.r-project.org",
-        "RemotePkgPlatform": "aarch64-apple-darwin20",
-        "RemoteSha": "2.5.1"
+        "Built": "R 4.5.0; ; 2025-10-07 14:50:14 UTC; unix"
       }
     },
     "nanonext": {
@@ -1232,7 +1226,7 @@
         "Type": "Package",
         "Package": "nanonext",
         "Title": "NNG (Nanomsg Next Gen) Lightweight Messaging Library",
-        "Version": "1.7.1",
+        "Version": "1.7.2",
         "Authors@R": "c(\n    person(\"Charlie\", \"Gao\", , \"charlie.gao@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-0750-061X\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"03wc8by49\")),\n    person(\"Hibiki AI Limited\", role = \"cph\"),\n    person(\"R Consortium\", role = \"fnd\")\n  )",
         "Description": "R binding for NNG (Nanomsg Next Gen), a successor to ZeroMQ.\n    NNG is a socket library for reliable, high-performance messaging over\n    in-process, IPC, TCP, WebSocket and secure TLS transports. Implements\n    'Scalability Protocols', a standard for common communications patterns\n    including publish/subscribe, request/reply and service discovery. As\n    its own threaded concurrency framework, provides a toolkit for\n    asynchronous programming and distributed computing. Intuitive 'aio'\n    objects resolve automatically when asynchronous operations complete,\n    and synchronisation primitives allow R to wait upon events signalled\n    by concurrent threads.",
         "License": "MIT + file LICENSE",
@@ -1250,19 +1244,13 @@
         "RoxygenNote": "7.3.3",
         "SystemRequirements": "'libnng' >= 1.9 and 'libmbedtls' >= 2.5, or 'cmake'\nand 'xz' to compile NNG and/or Mbed TLS included in package\nsources",
         "NeedsCompilation": "yes",
-        "Packaged": "2025-10-01 06:40:29 UTC; cg334",
+        "Packaged": "2025-11-03 08:10:36 UTC; cg334",
         "Author": "Charlie Gao [aut, cre] (ORCID: <https://orcid.org/0000-0002-0750-061X>),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>),\n  Hibiki AI Limited [cph],\n  R Consortium [fnd]",
         "Maintainer": "Charlie Gao <charlie.gao@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2025-10-01 07:30:02 UTC",
-        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-10-07 14:37:38 UTC; unix",
-        "Archs": "nanonext.so.dSYM",
-        "RemoteType": "standard",
-        "RemotePkgRef": "nanonext",
-        "RemoteRef": "nanonext",
-        "RemoteRepos": "https://cloud.r-project.org",
-        "RemotePkgPlatform": "aarch64-apple-darwin20",
-        "RemoteSha": "1.7.1"
+        "Date/Publication": "2025-11-03 09:30:02 UTC",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-11-03 10:24:46 UTC; unix",
+        "Archs": "nanonext.so.dSYM"
       }
     },
     "openssl": {
@@ -1439,7 +1427,7 @@
       "description": {
         "Package": "purrr",
         "Title": "Functional Programming Tools",
-        "Version": "1.1.0",
+        "Version": "1.2.0",
         "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0003-4757-117X\")),\n    person(\"Lionel\", \"Henry\", , \"lionel@posit.co\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"https://ror.org/03wc8by49\"))\n  )",
         "Description": "A complete and consistent functional programming toolkit for\n    R.",
         "License": "MIT + file LICENSE",
@@ -1447,7 +1435,7 @@
         "BugReports": "https://github.com/tidyverse/purrr/issues",
         "Depends": "R (>= 4.1)",
         "Imports": "cli (>= 3.6.1), lifecycle (>= 1.0.3), magrittr (>= 1.5.0),\nrlang (>= 1.1.1), vctrs (>= 0.6.3)",
-        "Suggests": "carrier (>= 0.2.0), covr, dplyr (>= 0.7.8), httr, knitr,\nlubridate, mirai (>= 2.4.0), rmarkdown, testthat (>= 3.0.0),\ntibble, tidyselect",
+        "Suggests": "carrier (>= 0.3.0), covr, dplyr (>= 0.7.8), httr, knitr,\nlubridate, mirai (>= 2.5.1), rmarkdown, testthat (>= 3.0.0),\ntibble, tidyselect",
         "LinkingTo": "cli",
         "VignetteBuilder": "knitr",
         "Biarch": "true",
@@ -1456,14 +1444,14 @@
         "Config/testthat/edition": "3",
         "Config/testthat/parallel": "TRUE",
         "Encoding": "UTF-8",
-        "RoxygenNote": "7.3.2",
+        "RoxygenNote": "7.3.3",
         "NeedsCompilation": "yes",
-        "Packaged": "2025-07-10 12:22:53 UTC; hadleywickham",
+        "Packaged": "2025-11-03 22:03:33 UTC; hadleywickham",
         "Author": "Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>),\n  Lionel Henry [aut],\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2025-07-10 17:50:02 UTC",
-        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-07-10 17:59:18 UTC; unix",
+        "Date/Publication": "2025-11-04 13:20:02 UTC",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-11-04 14:10:01 UTC; unix",
         "Archs": "purrr.so.dSYM"
       }
     },
@@ -1489,16 +1477,16 @@
         "RemoteRepo": "quartohelp",
         "RemoteUsername": "t-kalinowski",
         "RemoteRef": "HEAD",
-        "RemoteSha": "b8d647b2ef923ec0d05d74393614864f6b86dcc5",
+        "RemoteSha": "94b4f09033d41aaff89fb0a064abbbf85e39c529",
         "GithubRepo": "quartohelp",
         "GithubUsername": "t-kalinowski",
         "GithubRef": "HEAD",
-        "GithubSHA1": "b8d647b2ef923ec0d05d74393614864f6b86dcc5",
+        "GithubSHA1": "94b4f09033d41aaff89fb0a064abbbf85e39c529",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-04 17:04:27 UTC; dfalbel",
+        "Packaged": "2025-11-05 19:43:50 UTC; dfalbel",
         "Author": "Tomasz Kalinowski [aut, cre]",
         "Maintainer": "Tomasz Kalinowski <tomasz@posit.co>",
-        "Built": "R 4.5.0; ; 2025-11-04 17:04:28 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-05 19:43:50 UTC; unix"
       }
     },
     "ragnar": {
@@ -1527,16 +1515,16 @@
         "RemoteRepo": "ragnar",
         "RemoteUsername": "tidyverse",
         "RemoteRef": "HEAD",
-        "RemoteSha": "a99503d5b4c1c90cdd2ec27d00e0319ad44fa500",
+        "RemoteSha": "5461dd713b13b3341c4e48cbff1867242bfa2ffe",
         "GithubRepo": "ragnar",
         "GithubUsername": "tidyverse",
         "GithubRef": "HEAD",
-        "GithubSHA1": "a99503d5b4c1c90cdd2ec27d00e0319ad44fa500",
+        "GithubSHA1": "5461dd713b13b3341c4e48cbff1867242bfa2ffe",
         "NeedsCompilation": "yes",
-        "Packaged": "2025-10-31 10:03:12 UTC; dfalbel",
+        "Packaged": "2025-11-05 19:43:32 UTC; dfalbel",
         "Author": "Tomasz Kalinowski [aut, cre],\n  Daniel Falbel [aut],\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Tomasz Kalinowski <tomasz@posit.co>",
-        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-10-31 10:03:23 UTC; unix"
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-11-05 19:43:41 UTC; unix"
       }
     },
     "rappdirs": {
@@ -1879,28 +1867,29 @@
       "description": {
         "Package": "stringr",
         "Title": "Simple, Consistent Wrappers for Common String Operations",
-        "Version": "1.5.2",
+        "Version": "1.6.0",
         "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", , \"hadley@posit.co\", role = c(\"aut\", \"cre\", \"cph\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"))\n  )",
         "Description": "A consistent, simple and easy to use set of wrappers around\n    the fantastic 'stringi' package. All function and argument names (and\n    positions) are consistent, all functions deal with \"NA\"'s and zero\n    length vectors in the same way, and the output from one function is\n    easy to feed into the input of another.",
         "License": "MIT + file LICENSE",
         "URL": "https://stringr.tidyverse.org,\nhttps://github.com/tidyverse/stringr",
         "BugReports": "https://github.com/tidyverse/stringr/issues",
-        "Depends": "R (>= 3.6)",
+        "Depends": "R (>= 4.1.0)",
         "Imports": "cli, glue (>= 1.6.1), lifecycle (>= 1.0.3), magrittr, rlang\n(>= 1.0.0), stringi (>= 1.5.3), vctrs (>= 0.4.0)",
         "Suggests": "covr, dplyr, gt, htmltools, htmlwidgets, knitr, rmarkdown,\ntestthat (>= 3.0.0), tibble",
         "VignetteBuilder": "knitr",
         "Config/Needs/website": "tidyverse/tidytemplate",
+        "Config/potools/style": "explicit",
         "Config/testthat/edition": "3",
         "Encoding": "UTF-8",
         "LazyData": "true",
-        "RoxygenNote": "7.3.2",
+        "RoxygenNote": "7.3.3",
         "NeedsCompilation": "no",
-        "Packaged": "2025-09-03 22:57:02 UTC; hadleywickham",
+        "Packaged": "2025-11-03 22:09:58 UTC; hadleywickham",
         "Author": "Hadley Wickham [aut, cre, cph],\n  Posit Software, PBC [cph, fnd]",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2025-09-08 12:00:02 UTC",
-        "Built": "R 4.5.0; ; 2025-09-08 12:36:38 UTC; unix"
+        "Date/Publication": "2025-11-04 14:00:02 UTC",
+        "Built": "R 4.5.0; ; 2025-11-04 17:37:12 UTC; unix"
       }
     },
     "sys": {
