@@ -656,16 +656,16 @@
         "RemoteRepo": "ellmer",
         "RemoteUsername": "tidyverse",
         "RemoteRef": "HEAD",
-        "RemoteSha": "5ad7f6c42f47d923536fd22bbf81257547e41e9a",
+        "RemoteSha": "f79d57b9a702d39a2e7bbb04a1e94426cb4891d1",
         "GithubRepo": "ellmer",
         "GithubUsername": "tidyverse",
         "GithubRef": "HEAD",
-        "GithubSHA1": "5ad7f6c42f47d923536fd22bbf81257547e41e9a",
+        "GithubSHA1": "f79d57b9a702d39a2e7bbb04a1e94426cb4891d1",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-05 19:43:12 UTC; dfalbel",
+        "Packaged": "2025-11-06 20:06:37 UTC; dfalbel",
         "Author": "Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>),\n  Joe Cheng [aut],\n  Aaron Jacobs [aut],\n  Garrick Aden-Buie [aut] (ORCID:\n    <https://orcid.org/0000-0002-7111-0077>),\n  Barret Schloerke [aut] (ORCID: <https://orcid.org/0000-0001-9986-114X>),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
-        "Built": "R 4.5.0; ; 2025-11-05 19:43:13 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-06 20:06:38 UTC; unix"
       }
     },
     "fastmap": {
@@ -1477,16 +1477,16 @@
         "RemoteRepo": "quartohelp",
         "RemoteUsername": "t-kalinowski",
         "RemoteRef": "HEAD",
-        "RemoteSha": "c266632794cde41ac94fa1c915a08e800b745fcf",
+        "RemoteSha": "211c315f3ff6e1f350b4b583e6c67ae3bb42361e",
         "GithubRepo": "quartohelp",
         "GithubUsername": "t-kalinowski",
         "GithubRef": "HEAD",
-        "GithubSHA1": "c266632794cde41ac94fa1c915a08e800b745fcf",
+        "GithubSHA1": "211c315f3ff6e1f350b4b583e6c67ae3bb42361e",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-06 13:20:42 UTC; dfalbel",
+        "Packaged": "2025-11-06 20:06:42 UTC; dfalbel",
         "Author": "Tomasz Kalinowski [aut, cre]",
         "Maintainer": "Tomasz Kalinowski <tomasz@posit.co>",
-        "Built": "R 4.5.0; ; 2025-11-06 13:20:43 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-06 20:06:43 UTC; unix"
       }
     },
     "ragnar": {
