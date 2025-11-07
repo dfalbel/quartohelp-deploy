@@ -650,22 +650,22 @@
         "Encoding": "UTF-8",
         "Roxygen": "list(markdown = TRUE)",
         "RoxygenNote": "7.3.3",
-        "Collate": "'utils-S7.R' 'types.R' 'ellmer-package.R' 'tools-def.R'\n'content.R' 'provider.R' 'as-json.R' 'batch-chat.R'\n'chat-structured.R' 'turns.R' 'chat-tools.R' 'chat-utils.R'\n'utils-coro.R' 'chat.R' 'content-image.R' 'content-pdf.R'\n'content-replay.R' 'httr2.R' 'import-standalone-obj-type.R'\n'import-standalone-purrr.R' 'import-standalone-types-check.R'\n'interpolate.R' 'live.R' 'parallel-chat.R' 'params.R'\n'provider-anthropic.R' 'provider-any.R' 'provider-aws.R'\n'provider-openai.R' 'provider-azure.R' 'provider-google.R'\n'provider-cloudflare.R' 'provider-databricks.R'\n'provider-deepseek.R' 'provider-github.R'\n'provider-google-upload.R' 'provider-groq.R'\n'provider-huggingface.R' 'provider-mistral.R'\n'provider-ollama.R' 'provider-openai-responses.R'\n'provider-openrouter.R' 'provider-perplexity.R'\n'provider-portkey.R' 'provider-snowflake.R' 'provider-vllm.R'\n'schema.R' 'tokens.R' 'tools-built-in.R' 'tools-def-auto.R'\n'utils-auth.R' 'utils-callbacks.R' 'utils-cat.R'\n'utils-merge.R' 'utils-prettytime.R' 'utils.R' 'zzz.R'",
+        "Collate": "'utils-S7.R' 'types.R' 'ellmer-package.R' 'tools-def.R'\n'content.R' 'provider.R' 'as-json.R' 'batch-chat.R'\n'chat-structured.R' 'turns.R' 'chat-tools.R' 'chat-utils.R'\n'utils-coro.R' 'chat.R' 'content-image.R' 'content-pdf.R'\n'content-replay.R' 'httr2.R' 'import-standalone-obj-type.R'\n'import-standalone-purrr.R' 'import-standalone-types-check.R'\n'interpolate.R' 'live.R' 'parallel-chat.R' 'params.R'\n'provider-anthropic-files.R' 'provider-anthropic.R'\n'provider-any.R' 'provider-aws.R'\n'provider-openai-compatible.R' 'provider-azure.R'\n'provider-google.R' 'provider-cloudflare.R'\n'provider-databricks.R' 'provider-deepseek.R'\n'provider-github.R' 'provider-google-upload.R'\n'provider-groq.R' 'provider-huggingface.R' 'provider-mistral.R'\n'provider-ollama.R' 'provider-openai.R' 'provider-openrouter.R'\n'provider-perplexity.R' 'provider-portkey.R'\n'provider-snowflake.R' 'provider-vllm.R' 'schema.R' 'tokens.R'\n'tools-built-in.R' 'tools-def-auto.R' 'utils-auth.R'\n'utils-callbacks.R' 'utils-cat.R' 'utils-merge.R'\n'utils-prettytime.R' 'utils.R' 'zzz.R'",
         "RemoteType": "github",
         "RemoteHost": "api.github.com",
         "RemoteRepo": "ellmer",
         "RemoteUsername": "tidyverse",
         "RemoteRef": "HEAD",
-        "RemoteSha": "f79d57b9a702d39a2e7bbb04a1e94426cb4891d1",
+        "RemoteSha": "0c590a5e183c065aa75502d2a89472ab52f6a948",
         "GithubRepo": "ellmer",
         "GithubUsername": "tidyverse",
         "GithubRef": "HEAD",
-        "GithubSHA1": "f79d57b9a702d39a2e7bbb04a1e94426cb4891d1",
+        "GithubSHA1": "0c590a5e183c065aa75502d2a89472ab52f6a948",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-06 20:06:37 UTC; dfalbel",
+        "Packaged": "2025-11-07 12:25:38 UTC; dfalbel",
         "Author": "Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>),\n  Joe Cheng [aut],\n  Aaron Jacobs [aut],\n  Garrick Aden-Buie [aut] (ORCID:\n    <https://orcid.org/0000-0002-7111-0077>),\n  Barret Schloerke [aut] (ORCID: <https://orcid.org/0000-0001-9986-114X>),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
-        "Built": "R 4.5.0; ; 2025-11-06 20:06:38 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-07 12:25:40 UTC; unix"
       }
     },
     "fastmap": {
@@ -1477,16 +1477,16 @@
         "RemoteRepo": "quartohelp",
         "RemoteUsername": "t-kalinowski",
         "RemoteRef": "HEAD",
-        "RemoteSha": "211c315f3ff6e1f350b4b583e6c67ae3bb42361e",
+        "RemoteSha": "9ce87dc53676d56dce770375f65e233f47e0b7c1",
         "GithubRepo": "quartohelp",
         "GithubUsername": "t-kalinowski",
         "GithubRef": "HEAD",
-        "GithubSHA1": "211c315f3ff6e1f350b4b583e6c67ae3bb42361e",
+        "GithubSHA1": "9ce87dc53676d56dce770375f65e233f47e0b7c1",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-06 20:06:42 UTC; dfalbel",
+        "Packaged": "2025-11-07 12:25:44 UTC; dfalbel",
         "Author": "Tomasz Kalinowski [aut, cre]",
         "Maintainer": "Tomasz Kalinowski <tomasz@posit.co>",
-        "Built": "R 4.5.0; ; 2025-11-06 20:06:43 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-07 12:25:44 UTC; unix"
       }
     },
     "ragnar": {
