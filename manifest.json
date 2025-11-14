@@ -1513,16 +1513,16 @@
         "RemoteRepo": "quartohelp",
         "RemoteUsername": "t-kalinowski",
         "RemoteRef": "HEAD",
-        "RemoteSha": "7ed95550af9bc4d9493a94abd3697f060c4d451e",
+        "RemoteSha": "4cd87bbdcb6a4a5e635953aff90635242645a454",
         "GithubRepo": "quartohelp",
         "GithubUsername": "t-kalinowski",
         "GithubRef": "HEAD",
-        "GithubSHA1": "7ed95550af9bc4d9493a94abd3697f060c4d451e",
+        "GithubSHA1": "4cd87bbdcb6a4a5e635953aff90635242645a454",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-14 15:58:12 UTC; dfalbel",
+        "Packaged": "2025-11-14 18:26:22 UTC; dfalbel",
         "Author": "Tomasz Kalinowski [aut, cre]",
         "Maintainer": "Tomasz Kalinowski <tomasz@posit.co>",
-        "Built": "R 4.5.0; ; 2025-11-14 15:58:12 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-14 18:26:22 UTC; unix"
       }
     },
     "ragnar": {
