@@ -102,6 +102,42 @@
         "Built": "R 4.5.0; ; 2025-02-15 01:07:20 UTC; unix"
       }
     },
+    "Rapp": {
+      "Source": "github",
+      "Repository": null,
+      "description": {
+        "Package": "Rapp",
+        "Title": "Easily Build Command Line Applications",
+        "Version": "0.2.0.9000",
+        "Authors@R": "\n    person(\"Tomasz\", \"Kalinowski\", role = c(\"aut\", \"cre\"),\n           email = \"tomasz@posit.co\")",
+        "Description": "Run simple 'R' scripts as command line applications, with\n  automatic robust and convenient support for command line arguments.\n  This package provides 'Rapp', an alternative 'R' front-end similar to \n  'Rscript', that enables this.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://github.com/r-lib/Rapp",
+        "BugReports": "https://github.com/r-lib/Rapp/issues",
+        "Encoding": "UTF-8",
+        "Roxygen": "list(markdown = TRUE)",
+        "RoxygenNote": "7.3.3",
+        "Suggests": "testthat (>= 3.0.0), withr",
+        "Config/testthat/edition": "3",
+        "Imports": "yaml",
+        "RemoteType": "github",
+        "RemoteHost": "api.github.com",
+        "RemoteRepo": "Rapp",
+        "RemoteUsername": "r-lib",
+        "RemoteRef": "HEAD",
+        "RemoteSha": "980b66ea75b450fb74fa47581a914b4c9a6dfb2c",
+        "GithubRepo": "Rapp",
+        "GithubUsername": "r-lib",
+        "GithubRef": "HEAD",
+        "GithubSHA1": "980b66ea75b450fb74fa47581a914b4c9a6dfb2c",
+        "NeedsCompilation": "no",
+        "Packaged": "2025-11-14 14:15:19 UTC; dfalbel",
+        "Author": "Tomasz Kalinowski [aut, cre]",
+        "Maintainer": "Tomasz Kalinowski <tomasz@posit.co>",
+        "Depends": "R (>= 4.1.0)",
+        "Built": "R 4.5.0; ; 2025-11-14 14:15:20 UTC; unix"
+      }
+    },
     "Rcpp": {
       "Source": "CRAN",
       "Repository": "https://cloud.r-project.org",
@@ -656,16 +692,16 @@
         "RemoteRepo": "ellmer",
         "RemoteUsername": "tidyverse",
         "RemoteRef": "HEAD",
-        "RemoteSha": "a07022fe6c47127b0f9a207ee7fb33f3f22e39f8",
+        "RemoteSha": "8d794a6bae618151e4e66565e1f6169272fbd13b",
         "GithubRepo": "ellmer",
         "GithubUsername": "tidyverse",
         "GithubRef": "HEAD",
-        "GithubSHA1": "a07022fe6c47127b0f9a207ee7fb33f3f22e39f8",
+        "GithubSHA1": "8d794a6bae618151e4e66565e1f6169272fbd13b",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-13 18:19:32 UTC; dfalbel",
+        "Packaged": "2025-11-14 14:15:30 UTC; dfalbel",
         "Author": "Hadley Wickham [aut, cre] (ORCID:\n    <https://orcid.org/0000-0003-4757-117X>),\n  Joe Cheng [aut],\n  Aaron Jacobs [aut],\n  Garrick Aden-Buie [aut] (ORCID:\n    <https://orcid.org/0000-0002-7111-0077>),\n  Barret Schloerke [aut] (ORCID: <https://orcid.org/0000-0001-9986-114X>),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Hadley Wickham <hadley@posit.co>",
-        "Built": "R 4.5.0; ; 2025-11-13 18:19:33 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-14 14:15:31 UTC; unix"
       }
     },
     "fastmap": {
@@ -1195,15 +1231,15 @@
         "Type": "Package",
         "Package": "mirai",
         "Title": "Minimalist Async Evaluation Framework for R",
-        "Version": "2.5.1",
+        "Version": "2.5.2",
         "Authors@R": "c(\n    person(\"Charlie\", \"Gao\", , \"charlie.gao@posit.co\", role = c(\"aut\", \"cre\"),\n           comment = c(ORCID = \"0000-0002-0750-061X\")),\n    person(\"Joe\", \"Cheng\", , \"joe@posit.co\", role = \"ctb\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\"),\n           comment = c(ROR = \"03wc8by49\")),\n    person(\"Hibiki AI Limited\", role = \"cph\")\n  )",
-        "Description": "Designed for simplicity, a 'mirai' evaluates an R expression\n    asynchronously in a parallel process, locally or distributed over the\n    network. Modern networking and concurrency, built on 'nanonext' and\n    'NNG', ensures reliable scheduling over fast inter-process\n    communications or TCP/IP secured by TLS. Launch remote resources via\n    SSH or cluster managers for distributed computing. Scales efficiently\n    to millions of tasks over thousands of connections, requiring no\n    storage on the file system due to its inherently queued architecture.\n    Innovative features include event-driven promises, asynchronous\n    parallel map, and seamless serialization of otherwise non-exportable\n    reference objects.",
+        "Description": "Designed for simplicity, a 'mirai' evaluates an R expression\n    asynchronously, locally or distributed over the network. Built on\n    'nanonext' and 'NNG' for modern networking and concurrency, scales\n    efficiently to millions of tasks over thousands of persistent parallel\n    processes. Provides optimal scheduling over fast 'IPC', TCP, and TLS\n    connections, integrating with SSH or cluster managers. Implements\n    event-driven promises for reactive programming, and supports custom\n    serialization for cross-language data types.",
         "License": "MIT + file LICENSE",
         "URL": "https://mirai.r-lib.org, https://github.com/r-lib/mirai",
         "BugReports": "https://github.com/r-lib/mirai/issues",
         "Depends": "R (>= 3.6)",
-        "Imports": "nanonext (>= 1.7.1)",
-        "Suggests": "cli, litedown, otel",
+        "Imports": "nanonext (>= 1.7.2)",
+        "Suggests": "cli, litedown, otel, otelsdk",
         "Enhances": "parallel, promises",
         "VignetteBuilder": "litedown",
         "Config/Needs/website": "tidyverse/tidytemplate",
@@ -1211,12 +1247,12 @@
         "Encoding": "UTF-8",
         "RoxygenNote": "7.3.3",
         "NeedsCompilation": "no",
-        "Packaged": "2025-10-06 08:13:26 UTC; cg334",
+        "Packaged": "2025-11-05 13:44:31 UTC; shikokuchuo",
         "Author": "Charlie Gao [aut, cre] (ORCID: <https://orcid.org/0000-0002-0750-061X>),\n  Joe Cheng [ctb],\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>),\n  Hibiki AI Limited [cph]",
         "Maintainer": "Charlie Gao <charlie.gao@posit.co>",
         "Repository": "CRAN",
-        "Date/Publication": "2025-10-06 09:20:02 UTC",
-        "Built": "R 4.5.0; ; 2025-10-07 14:50:14 UTC; unix"
+        "Date/Publication": "2025-11-05 16:10:02 UTC",
+        "Built": "R 4.5.0; ; 2025-11-05 17:44:17 UTC; unix"
       }
     },
     "nanonext": {
@@ -1467,8 +1503,8 @@
         "Description": "Launches an interactive chat app that retrieves and\n    summarizes relevant Quarto documentation using both semantic and\n    keyword-based search via an OpenAI-powered assistant. Returns\n    authoritative excerpts, includes links to official resources, and\n    helps users accomplish specific Quarto tasks quickly.",
         "License": "MIT + file LICENSE",
         "Depends": "R (>= 4.3.0)",
-        "Imports": "bslib, DBI, dotty, dplyr, ellmer (>= 0.2.1.9000), fs,\npromises, ragnar (>= 0.2.0), rlang (>= 1.1.0), shiny, shinychat\n(>= 0.2.0.9000), stringi, withr",
-        "Remotes": "posit-dev/shinychat/pkg-r, tidyverse/ellmer, tidyverse/ragnar",
+        "Imports": "bslib, DBI, dotty, dplyr, ellmer (>= 0.3.2.9000), fs,\npromises, ragnar (>= 0.2.0), Rapp (>= 0.2.0.9000), rlang (>=\n1.1.0), shiny, shinychat (>= 0.2.0.9000), stringi, withr",
+        "Remotes": "posit-dev/shinychat/pkg-r, tidyverse/ellmer, tidyverse/ragnar,\nr-lib/Rapp",
         "Encoding": "UTF-8",
         "Roxygen": "list(markdown = TRUE)",
         "RoxygenNote": "7.3.3",
@@ -1477,16 +1513,16 @@
         "RemoteRepo": "quartohelp",
         "RemoteUsername": "t-kalinowski",
         "RemoteRef": "HEAD",
-        "RemoteSha": "9ce87dc53676d56dce770375f65e233f47e0b7c1",
+        "RemoteSha": "423ebda9f84bd1ecb2713a782d09f84827a0420d",
         "GithubRepo": "quartohelp",
         "GithubUsername": "t-kalinowski",
         "GithubRef": "HEAD",
-        "GithubSHA1": "9ce87dc53676d56dce770375f65e233f47e0b7c1",
+        "GithubSHA1": "423ebda9f84bd1ecb2713a782d09f84827a0420d",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-13 18:19:55 UTC; dfalbel",
+        "Packaged": "2025-11-14 15:14:36 UTC; dfalbel",
         "Author": "Tomasz Kalinowski [aut, cre]",
         "Maintainer": "Tomasz Kalinowski <tomasz@posit.co>",
-        "Built": "R 4.5.0; ; 2025-11-13 18:19:55 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-14 15:14:37 UTC; unix"
       }
     },
     "ragnar": {
@@ -1515,16 +1551,16 @@
         "RemoteRepo": "ragnar",
         "RemoteUsername": "tidyverse",
         "RemoteRef": "HEAD",
-        "RemoteSha": "71d2aa09915e44c56fff7cdec1099857e52e220b",
+        "RemoteSha": "5ddadb20f5469c6eb2175478c70a810f4e67bdc2",
         "GithubRepo": "ragnar",
         "GithubUsername": "tidyverse",
         "GithubRef": "HEAD",
-        "GithubSHA1": "71d2aa09915e44c56fff7cdec1099857e52e220b",
+        "GithubSHA1": "5ddadb20f5469c6eb2175478c70a810f4e67bdc2",
         "NeedsCompilation": "yes",
-        "Packaged": "2025-11-13 18:19:40 UTC; dfalbel",
+        "Packaged": "2025-11-14 15:14:25 UTC; dfalbel",
         "Author": "Tomasz Kalinowski [aut, cre],\n  Daniel Falbel [aut],\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Tomasz Kalinowski <tomasz@posit.co>",
-        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-11-13 18:19:49 UTC; unix"
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-11-14 15:14:31 UTC; unix"
       }
     },
     "rappdirs": {
@@ -1792,18 +1828,18 @@
         "RemoteRepo": "shinychat",
         "RemoteUsername": "posit-dev",
         "RemoteRef": "HEAD",
-        "RemoteSha": "fd83249c9c52f9c07193d11f44f80debdbb5a7e9",
+        "RemoteSha": "4e05168b8b2013726614355790cee3858fb1651d",
         "RemoteSubdir": "pkg-r",
         "GithubRepo": "shinychat",
         "GithubUsername": "posit-dev",
         "GithubRef": "HEAD",
-        "GithubSHA1": "fd83249c9c52f9c07193d11f44f80debdbb5a7e9",
+        "GithubSHA1": "4e05168b8b2013726614355790cee3858fb1651d",
         "GithubSubdir": "pkg-r",
         "NeedsCompilation": "no",
-        "Packaged": "2025-11-04 17:04:24 UTC; dfalbel",
+        "Packaged": "2025-11-14 14:15:36 UTC; dfalbel",
         "Author": "Joe Cheng [aut],\n  Carson Sievert [aut],\n  Garrick Aden-Buie [aut, cre] (ORCID:\n    <https://orcid.org/0000-0002-7111-0077>),\n  Barret Schloerke [aut] (ORCID: <https://orcid.org/0000-0001-9986-114X>),\n  Posit Software, PBC [cph, fnd] (ROR: <https://ror.org/03wc8by49>)",
         "Maintainer": "Garrick Aden-Buie <garrick@adenbuie.com>",
-        "Built": "R 4.5.0; ; 2025-11-04 17:04:25 UTC; unix"
+        "Built": "R 4.5.0; ; 2025-11-14 14:15:36 UTC; unix"
       }
     },
     "sourcetools": {
@@ -2160,6 +2196,30 @@
         "Author": "David B. Dahl [aut],\n  David Scott [aut, cre],\n  Charles Roosen [aut],\n  Arni Magnusson [aut],\n  Jonathan Swinton [aut],\n  Ajay Shah [ctb],\n  Arne Henningsen [ctb],\n  Benno Puetz [ctb],\n  Bernhard Pfaff [ctb],\n  Claudio Agostinelli [ctb],\n  Claudius Loehnert [ctb],\n  David Mitchell [ctb],\n  David Whiting [ctb],\n  Fernando da Rosa [ctb],\n  Guido Gay [ctb],\n  Guido Schulz [ctb],\n  Ian Fellows [ctb],\n  Jeff Laake [ctb],\n  John Walker [ctb],\n  Jun Yan [ctb],\n  Liviu Andronic [ctb],\n  Markus Loecher [ctb],\n  Martin Gubri [ctb],\n  Matthieu Stigler [ctb],\n  Robert Castelo [ctb],\n  Seth Falcon [ctb],\n  Stefan Edwards [ctb],\n  Sven Garbade [ctb],\n  Uwe Ligges [ctb]",
         "Date/Publication": "2019-04-21 12:20:03 UTC",
         "Built": "R 4.5.0; ; 2025-03-31 21:41:48 UTC; unix"
+      }
+    },
+    "yaml": {
+      "Source": "CRAN",
+      "Repository": "https://cloud.r-project.org",
+      "description": {
+        "Package": "yaml",
+        "Type": "Package",
+        "Title": "Methods to Convert R Data to YAML and Back",
+        "Date": "2024-07-22",
+        "Version": "2.3.10",
+        "Suggests": "RUnit",
+        "Author": "Shawn P Garbett [aut], Jeremy Stephens [aut, cre], Kirill Simonov [aut], Yihui Xie [ctb],\n  Zhuoer Dong [ctb], Hadley Wickham [ctb], Jeffrey Horner [ctb], reikoch [ctb],\n  Will Beasley [ctb], Brendan O'Connor [ctb], Gregory R. Warnes [ctb],\n  Michael Quinn [ctb], Zhian N. Kamvar [ctb], Charlie Gao [ctb]",
+        "Maintainer": "Shawn Garbett <shawn.garbett@vumc.org>",
+        "License": "BSD_3_clause + file LICENSE",
+        "Description": "Implements the 'libyaml' 'YAML' 1.1 parser and emitter\n  (<https://pyyaml.org/wiki/LibYAML>) for R.",
+        "URL": "https://github.com/vubiostat/r-yaml/",
+        "BugReports": "https://github.com/vubiostat/r-yaml/issues",
+        "NeedsCompilation": "yes",
+        "Packaged": "2024-07-22 15:44:18 UTC; garbetsp",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-07-26 15:10:02 UTC",
+        "Built": "R 4.5.0; aarch64-apple-darwin20; 2025-03-31 21:46:35 UTC; unix",
+        "Archs": "yaml.so.dSYM"
       }
     }
   },
